@@ -1,0 +1,35 @@
+name: escience
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter-book
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - ghp-import
+  - xarray
+  - rioxarray
+  - cftime
+  - netcdf4
+  - h5netcdf
+  - cartopy
+  - holoviews
+  - hvplot
+  - geoviews
+  - cartopy
+  - geopandas
+  - pooch
+  - dask
+  - fsspec
+  - s3fs
+  - ipycytoscape
+  - datashader
+  - pip
+  - pip:
+    - wget
+    - sphinx-exercise
+    - kerchunk==0.0.7
+    - jupytext
+    - nbgitpuller
